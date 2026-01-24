@@ -208,3 +208,7 @@ __marimo__/
 
 
 *.parquet
+
+01-docker-terraform/terraform/keys/
+
+.terraform
