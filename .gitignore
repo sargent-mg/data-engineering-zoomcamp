@@ -212,3 +212,4 @@ __marimo__/
 01-docker-terraform/terraform/keys/
 
 .terraform
+.DS_Store
