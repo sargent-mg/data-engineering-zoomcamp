@@ -213,3 +213,8 @@ __marimo__/
 
 .terraform
 .DS_Store
+
+# Ignore DuckDB files
+*.duckdb
+*.db
+*.wals
