@@ -1,0 +1,60 @@
+{
+  "cmdline": [
+    "bruin",
+    "run",
+    "./pipeline/pipeline.yml",
+    "--full-refresh",
+    "--start-date",
+    "2022-01-01",
+    "--end-date",
+    "2022-02-01"
+  ],
+  "parameters": {
+    "downstream": false,
+    "startDate": "2022-01-01",
+    "endDate": "2022-02-01",
+    "workers": 16,
+    "environment": "",
+    "force": false,
+    "pushMetadata": false,
+    "noLogFile": false,
+    "fullRefresh": true,
+    "useUV": false,
+    "tag": "",
+    "excludeTag": "",
+    "only": [],
+    "output": "",
+    "expUseWingetForUv": false,
+    "configFilePath": "",
+    "sensorMode": "",
+    "applyIntervalModifiers": false,
+    "annotations": "",
+    "useGong": false
+  },
+  "metadata": {
+    "version": "v0.11.464",
+    "os": "darwin"
+  },
+  "state": [
+    {
+      "name": "ingestion.payment_lookup",
+      "status": "succeeded"
+    },
+    {
+      "name": "ingestion.trips",
+      "status": "succeeded"
+    },
+    {
+      "name": "reports.trips_report",
+      "status": "succeeded"
+    },
+    {
+      "name": "staging.trips",
+      "status": "succeeded"
+    }
+  ],
+  "version": "1.0.0",
+  "timestamp": "2026-02-19T23:39:25.921773-06:00",
+  "run_id": "2026_02_19_23_39_12",
+  "compatibility_hash": "d0abebafeb4b8b87c058db3f1e1c090d82af7424481b9185636bdc9aa485d0c1"
+}

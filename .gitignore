@@ -98,6 +98,7 @@ ipython_config.py
 #   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
 #   This is especially recommended for binary packages to ensure reproducibility, and is more
 #   commonly ignored for libraries.
+<<<<<<< HEAD
 
 # Terraform
 terraform.tfstate*
@@ -145,6 +146,8 @@ _temporary/
 .sparkStaging/
 # Parquet checkpoints
 *.checkpoint/
+=======
+>>>>>>> 9c9cea0c1ab7414cb396fd7c1773aaedf54a7991
 #uv.lock
 
 # poetry
@@ -264,3 +267,13 @@ __marimo__/
 
 _SUCCESS
 .part*
+# Ignore DuckDB files
+*.duckdb
+*.db
+*.wals
+
+.bruin.yml
+logs/runs
+logs/*.log
+*.py[cod]
+
