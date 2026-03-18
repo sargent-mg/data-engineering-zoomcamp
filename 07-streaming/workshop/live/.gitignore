@@ -98,62 +98,7 @@ ipython_config.py
 #   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
 #   This is especially recommended for binary packages to ensure reproducibility, and is more
 #   commonly ignored for libraries.
-uv.lock
-
-# Terraform
-terraform.tfstate*
-.terraform/
-
-# Virtual environments
-.venv/
-venv/
-ENV/
-env/
-env.bak/
-venv.bak/
-
-# Credentials and keys
-keys/
-*.key
-*.pem
-*.p12
-*.pfx
-
-# Environment variables
-.env
-.env.local
-.env.*.local
-.envrc
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-desktop.ini
-
-# Logs
-*.log
-logs/
-
-# IDE
-.vscode/
-.idea/
-.spyderproject
-.spyproject
-
-# Python language versioning
-.python-version
-
-# Data engineering specific
-# Spark temporary files
-_temporary/
-.sparkStaging/
-# Parquet checkpoints
-*.checkpoint/
+#uv.lock
 
 # poetry
 #   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
@@ -188,6 +133,20 @@ celerybeat.pid
 
 # SageMath parsed files
 *.sage.py
+
+# Environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
 
 # Rope project settings
 .ropeproject
@@ -246,25 +205,3 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
-
-
-*.parquet
-
-01-docker-terraform/terraform/keys/
-
-.terraform
-.DS_Store
-
-
-_SUCCESS
-.part*
-# Ignore DuckDB files
-*.duckdb
-*.db
-*.wals
-
-.bruin.yml
-logs/runs
-logs/*.log
-*.py[cod]
-
